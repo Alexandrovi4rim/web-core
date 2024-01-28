@@ -17,6 +17,14 @@ header{
     padding: 24px 16px ;
     list-style: none;
 }
+.menu__mid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 24px 16px ;
+    list-style: none;
+}
 .title {
     display: flex;
     justify-content: flex-start; 
@@ -100,14 +108,61 @@ main{
 .menu__img1 {
     border: none;
 }
+.contmenu__item_button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 .main_text {
-    margin-left: 16px;
+    margin: 0 0 0 16px;
 }
 .menu__item__mid {
     display: none;
 }
+.menu_container {
+    display: flex;
+    justify-content: space-between;
+}
+.text__mid {
+    margin: 16px 0 0 16px;
+    display: none;
+}
+.title {
+    margin-top: 24px;
+}
+.contmenu {
+    margin-top: 32px;
+}
+.foot {
+    margin-top: 32px;
+}
+.text {
+    margin: 0;
+}
+.cps {
+    width: 320px;
+    height: avto;
+}
+
 @media (min-width: 784px) {
 .menu__item__mid {
     display: block;
     }
+.page-container {
+    width: 784px;
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+.text__mid {
+    display: block;
+}
+.cps {
+    width: 360px;
+    height: avto;
+}
+.foot {
+    gap: 48px;
+}
 }
