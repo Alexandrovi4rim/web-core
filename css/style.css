@@ -1,5 +1,28 @@
-body{
+@font-face {
+    font-family: "TTLakes";
+    src: local("TTLakes"),
+    url("../fonts/TTLakes-Regular.woff") format("woff");
+    font-weight: normal;
+}
+
+  body{
+    font-family: "TTLakes", sans-serif;
     margin: 0;
+}
+.contmenu__item_button {
+    font-size: 16px;
+    font-family: "TTLakes";
+    color: #7E7E82;
+}
+.reed_next {
+    color: #1B1C21;
+    font-family: "TTLakes";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: -0.2px;
+    white-space: nowrap;
 }
 .page-container {
     margin: 0 auto;
@@ -32,7 +55,7 @@ header{
 }
 .title__text {
     color: #1B1C21;
-    font-family: "TT Lakes";
+    font-family: "TTLakes";
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -45,15 +68,14 @@ header{
 main{
     display: flex;
     flex-direction: column;
-   margin-top: 88px;
-   overflow: hidden;
+    margin-top: 88px;
+    overflow: hidden;
 }
 .contmenu {
     display: flex;
     flex-wrap: nowrap;
     gap: 4px;
     margin: 0;
-    /* width: 504px; */
     list-style: none;
     padding-left: 16px;
     overflow-x: scroll;
@@ -64,7 +86,7 @@ main{
     background: #FFF;
     padding: 8px 8px 8px 16px;
     color: #7E7E82;
-    font-family: "TT Lakes";
+    font-family: "TTLakes";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -78,10 +100,10 @@ main{
     outline: 2px solid #B8FFEC;
 }
 .reed {
- display: flex;
- margin: 20px;
- align-items: center;
- gap: 4px;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    gap: 4px;
 }
 .reed_next {
     display: flex;
@@ -144,90 +166,88 @@ main{
 
 
 @media (min-width: 784px) {
-.menu__item__mid {
-    display: block;
+    .menu__item__mid {
+        display: block;
+        }
+    .page-container {
+        width: 784px;
     }
-.page-container {
-    width: 784px;
-}
-.foot {
-    display: flex;
-    justify-content: space-between;
-}
-.text__mid {
-    display: block;
-}
-.cps {
-    width: 360px;
-    height: avto;
-}
-.foot {
-    gap: 48px;
-}
-.line__menu {
-    display: none;
-}
+    .foot {
+        display: flex;
+        justify-content: space-between;
+    }
+    .text__mid {
+        display: block;
+    }
+    .cps {
+        width: 360px;
+        height: avto;
+    }
+    .foot {
+        gap: 48px;
+    }
+    .line__menu {
+        display: none;
+    }
 }
 
 
 @media (min-width: 1120px) {
-.menu_container {
-    display: none;
-}
-.page-container {
-        width: 1120px;
-        margin-right: 28px;
+    .menu_container {
+        display: none;
     }
-.line {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.line__menu {
-    display: flex;
-         list-style: none;
-}
-.line__menu__item {
-    display: flex;
-    align-items: center;
-}
-.title {
-    white-space: nowrap;
-    align-items: center;
-    margin: 0;
-}
-.contmenu {
-    overflow-x: visible;
-}
-.foot{
-    margin-top: 19px;
-}
-.contmenu {
-    margin-left: 16px;
-}
-main {
-    margin-top: 42px;
-}
-.cps{
-    width: 531px;
-    height: avto;
-}
-/* .foot {
-    margin-top: 300px;
-} */
-.title__text{
-    margin-left: 24px;
-}
-.text {
-    margin-left: 24px;
-}
-.main_text, .text__mid, .reed {
-    margin-left: 0;
-}
-.contmenu {
-    height: 42px;
-}
-.contmenu__item {
-    height: 24px;   
-}
+    .page-container {
+            width: 1120px;
+            padding-right: 28px;
+        }
+    .line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .line__menu {
+        display: flex;
+            list-style: none;
+    }
+    .line__menu__item {
+        display: flex;
+        align-items: center;
+    }
+    .title {
+        white-space: nowrap;
+        align-items: center;
+        margin: 0;
+    }
+    .contmenu {
+        overflow-x: visible;
+    }
+    .foot{
+        margin-top: 19px;
+    }
+    .contmenu {
+        margin-left: 16px;
+    }
+    main {
+        margin-top: 42px;
+    }
+    .cps{
+        width: 531px;
+        height: avto;
+    }
+    .title__text{
+        margin-left: 24px;
+    }
+    .text {
+        margin-left: 24px;
+    }
+    .main_text, .text__mid, .reed {
+        margin-left: 0;
+    }
+    .contmenu {
+        flex-wrap: wrap;
+        height: 86px;
+    }
+    .contmenu__item {
+        height: 24px;   
+    }
 }
