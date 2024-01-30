@@ -9,7 +9,7 @@
     font-family: "TTLakes", sans-serif;
     margin: 0;
 }
-.contmenu__item_button {
+.contmenu__item-button {
     font-size: 16px;
     font-family: "TTLakes";
     color: #7E7E82;
@@ -125,7 +125,7 @@ main{
 .menu__img1 {
     border: none;
 }
-.contmenu__item_button {
+.contmenu__item-button {
     background: none;
     border: none;
     cursor: pointer;
@@ -134,6 +134,14 @@ main{
 }
 .main_text {
     margin: 0 0 0 16px;
+    color: #1B1C21;
+    width: 288px;
+    font-family: "TTLakes";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
 }
 .menu__item__mid {
     display: none;
@@ -191,6 +199,19 @@ main{
     .line__menu {
         display: none;
     }
+    .main_text, .text__mid {
+        width: 312px;
+        color: #1B1C21;
+        font-family: "TTLakes";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+    }
+    .dobav {
+        display: none;
+    }
 }
 
 
@@ -245,6 +266,19 @@ main{
     .main_text, .text__mid, .reed {
         margin-left: 0;
     }
+    .dobav {
+        display: inline;
+    }
+    .main_text, .text__mid, .dobav{
+        width: 490px;
+        color: #1B1C21;
+        font-family: "TTLakes";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        }
     .contmenu {
         flex-wrap: wrap;
         height: 86px;
