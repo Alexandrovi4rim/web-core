@@ -14,7 +14,7 @@
     font-family: "TTLakes";
     color: #7E7E82;
 }
-.reed_next {
+.reed-next {
     color: #1B1C21;
     font-family: "TTLakes";
     font-size: 16px;
@@ -105,7 +105,7 @@ main{
     align-items: center;
     gap: 4px;
 }
-.reed_next {
+.reed-next {
     display: flex;
     width: 108px;
     justify-content: flex-start;
@@ -113,12 +113,12 @@ main{
     background: none;
     cursor: pointer;
 }
-.menu__item_icon {
+.menu__item-icon {
     background: none;
     border: none;
     cursor: pointer;
 }
-.menu__img_icon {
+.menu__img-icon {
     background: none;
     border: none;
 }
@@ -132,7 +132,7 @@ main{
     text-decoration: none;
     margin-right: 19px;
 }
-.main_text {
+.main-text {
     margin: 0 0 0 16px;
     color: #1B1C21;
     width: 288px;
@@ -143,10 +143,10 @@ main{
     line-height: 20px; /* 142.857% */
     letter-spacing: 0.2px;
 }
-.menu__item__mid {
+.menu__item-mid {
     display: none;
 }
-.menu_container {
+.menu-container {
     display: flex;
     justify-content: space-between;
 }
@@ -176,7 +176,7 @@ main{
 
 
 @media (min-width: 784px) {
-    .menu__item__mid {
+    .menu__item-mid {
         display: block;
         }
     .page-container {
@@ -199,7 +199,7 @@ main{
     .line__menu {
         display: none;
     }
-    .main_text, .text__mid {
+    .main-text, .text__mid {
         width: 312px;
         color: #1B1C21;
         font-family: "TTLakes";
@@ -216,7 +216,7 @@ main{
 
 
 @media (min-width: 1120px) {
-    .menu_container {
+    .menu-container {
         display: none;
     }
     .page-container {
@@ -232,7 +232,7 @@ main{
         display: flex;
             list-style: none;
     }
-    .line__menu__item {
+    .line__menu-item {
         display: flex;
         align-items: center;
     }
@@ -263,13 +263,13 @@ main{
     .text {
         margin-left: 24px;
     }
-    .main_text, .text__mid, .reed {
+    .main-text, .text__mid, .reed {
         margin-left: 0;
     }
     .dobav {
         display: inline;
     }
-    .main_text, .text__mid, .dobav{
+    .main-text, .text__mid, .dobav{
         width: 490px;
         color: #1B1C21;
         font-family: "TTLakes";
