@@ -1,117 +1,48 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="css/style.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-        <meta name="keywords" content="Тестовый, первая, БЭМ, SPS">
-        <title>CPS</title>
-    </head>
-    <body>
-        <div class="page-container">
-        <header>
-            <div class="menu-container">
-                <ul class="menu">
-                    <li class="menu__item">
-                        <button class="menu__item-icon">
-                            <img src="img/mob/ic_menu.png" alt="меню">
-                        </button>
-                    </li>
-                    <li class="menu__item-mid">
-                        <img src="img/mob/vert.png" alt=" ">
-                    </li>
-                    <li class="menu__img">
-                        <button class="menu__img-icon">
-                            <img src="img/mob/icon.png" alt=" ">
-                        </button>
-                    </li>
-                </ul>
-                <ul class="menu-mid">
-                    <li class="menu-mid__item-mid">
-                        <button class="menu-mid__item-icon">
-                            <img src="img/mid/call.png" alt="позвонить">
-                        </button>
-                    </li>
-                    <li class="menu-mid__item-mid">
-                        <button class="menu-mid__item-icon">
-                            <img src="img/mid/chat.png" alt="написать">
-                        </button>
-                    </li>
-                    <li class="menu-mid__item-mid">
-                        <button class="menu-mid__item-icon">
-                            <img src="img/mid/chel.png" alt="контакты">
-                        </button>
-                    </li>
-                    <li class="menu-mid__img">
-                        <img src="img/mob/vert.png" alt=" ">
-                    </li>
-                    <li class="menu-mid__item">
-                        <button class="menu-mid__img-icon">
-                            <img src="img/mob/ic_set.png" alt="оставить заявку">
-                        </button>
-                    </li>
-                    <li class="menu-mid__item">
-                        <button class="menu-mid__item-icon">
-                            <img src="img/mob/ic_scr.png" alt="Статус ремонта">
-                        </button>
-                    </li>
-                </ul> 
-            </div>   
-        </header>
-        <main>
-            <div class="line">
-                <div class="title">
-                    <img src="img/mob/greenline.png" alt="Статус ремонта">
-                    <h1 class="title__text">Услуги и сервисы</h1>
-                </div>
-                <ul class="line__menu">
-                    <li class="line__menu-item">
-                        <span>Оставить заявку</span>
-                        <button class="line__menu-img-icon">
-                            <img src="img/mob/ic_set.png" alt="Оставить заявку">
-                        </button>
-                    </li>
-                    <li class="line__menu-item">Статус ремонта
-                        <button class="line__menu-item-icon">
-                            <img src="img/mob/ic_scr.png" alt="Статус ремонта">
-                        </button>
-                    </li>
-                </ul>  
-            </div>
-            <ul class="contmenu">
-                <li class="contmenu__item">
-                    <a class="contmenu__item-button" href="#">Рекомендуемые устройства</a>
-                </li>
-                <li class="contmenu__item">
-                    <a class="contmenu__item-button" href="#">Дополнительные услуги</a>
-                </li>
-                <li class="contmenu__item">
-                    <a class="contmenu__item-button" href="#">Цены на услуги</a>
-                </li>
-                <li class="contmenu__item">
-                    <a class="contmenu__item-button" href="#">Адреса сервисных центров</a>
-                </li>
-                <li class="contmenu__item">
-                    <a class="contmenu__item-button" href="#">Специальные цены</a>
-                </li>
-                <li class="contmenu__item">
-                    <a class="contmenu__item-button" href="#">Отзывы</a>
-                </li>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style_index.css">
+    <meta name="keywords" content="услуги, клиентам, CPS">
+    <title>Продвинутая стилизация</title>
+</head>
+<body>
+    <main class="container">
+       <header class="services">
+            <ul class="navigation-links">
+                <li class="navigation-links__item"><img src="img/mob/крест.png" alt="Закрыть сайд-бар"></li>
+                <li class="navigation-links__item"><img src="img/mob/icon.png" alt="Лого"></li>
+                <li class="navigation-links__item"><img src="img/mob/search.png" alt="Поиск" class="navigation-links__third-link"></li>  
             </ul>
-            <div class="foot">
-                <div class="text">
-                    <p class="main-text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-                    <p class="text__mid">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span class="dobav">, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span></p>
-                    <div class="reed">
-                        <img src="img/mob/next.png" alt=" ">
-                        <button class="reed-next">Читать далее</button>
-                    </div>
-                </div>
-                <div class="picture">
-                    <img class="cps" src="img/mob/iMG_3223.png" alt="Логотип">
-                </div>
-            </div>
-        </main>     
-        </div>
-    </body>
+            <nav class="navigation-list">
+                <ul class="services-list">
+                    <li class="services-list__item services-list__item--active"><a class="services-list__link services-list__link--active" href="#">Ремонт техники</a></li>
+                    <li class="services-list__item"><a class="services-list__link" href="#">Услуги и сервисы</a></li>
+                    <li class="services-list__item"><a class="services-list__link" href="#">Корпоративным клиентам</a></li>
+                    <li class="services-list__item"><a class="services-list__link" href="#">Продавцам техники</a></li>
+                    <li class="services-list__item"><a class="services-list__link" href="#">Партнерам</a></li>
+                    <li class="services-list__item"><a class="services-list__link" href="#">Производителям</a></li>
+                    <li class="services-list__item"><a class="services-list__link" href="#">Наши сервисные центры</a></li>
+                    <li class="services-list__item"><a class="services-list__link" href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <footer class="contacts">
+            <ul class="contact-links">
+                <li class="contact-links__item"><img src="/img/mid/call.png" alt="Позвонить нам"></li>
+                <li class="contact-links__item"><img src="/img/mid/chat.png" alt="Написать нам"></li>
+                <li class="contact-links__item"><img src="/img/mid/chel.png" alt="Профиль"></li>
+            </ul>
+            <section class="contact-info"> 
+                <p class="contact-info__mail">mail@cps.com</p>
+                <p class="contact-info__phone">8 800 890 8900</p>
+            </section>
+            <ul class="lang-navigation">
+                <li class="lang-navigation__lang-link lang-navigation__lang-link--active"><span>ru</span></li>
+                <li class="lang-navigation__lang-link"><span>en</span></li>
+                <li class="lang-navigation__lang-link"><span>ch</span></li>
+            </ul>
+        </footer> 
+    </main>
+</body>
 </html>
