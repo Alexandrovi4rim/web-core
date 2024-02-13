@@ -1,30 +1,32 @@
 @font-face {
-    font-family: 'TTLakes';
-    src: url('font/TTLakes-Medium.woff') format('woff'),
-    url('font/TTLakes-Medium.ttf') format('truetype'),
-    url('font/TTLakes-Medium.eot') format('embeddedopentype');
-    font-weight: 400;
-    font-style: normal;
+    font-family: "TTLakes";
+    src: local("TTLakes"),
+    url("../fonts/TTLakes-Regular.woff") format("woff");
+    font-weight: normal;
 }
 
 @font-face {
-    font-family: 'TTLakes';
-    src: url('font/TTLakes-Bold.woff') format('woff'),
-    url('font/TTLakes-Bold.ttf') format('truetype'),
-    url('font/TTLakes-Bold.eot') format('embeddedopentype');
-    font-weight: 700;
-    font-style: normal;
+    font-family: "TTLakes";
+    src: local("TTLakes"),
+    url("../fonts/TTLakes-Medium.woff") format("woff");
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: "TTLakes";
+    src: local("TTLakes"),
+    url("../fonts/TTLakes-Bold.woff") format("woff");
+    font-weight: bold;
 }
 
 body {
-    font-family: "TTLakes", "Arial", serif;
+    font-family: "TTLakes", sans-serif;
     font-style: normal;
     color: #1B1C21;
     margin: 0;
 }
 
 .container {
-    width: 320px;
     height: 1024px;
     box-shadow: 16px 0 52px 0 rgb(223, 219, 219);
 }
@@ -40,6 +42,12 @@ body {
     justify-content: left;
     gap: 15px;
     list-style: none;
+}
+
+.navigation-links__button {
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 .navigation-links__item:hover {
@@ -75,6 +83,7 @@ body {
     font-weight: 500;
     text-decoration: none;
     color: #1B1C21;
+    cursor: pointer;
 }
 
 .services-list__link:hover {
@@ -123,12 +132,16 @@ body {
 
 .contact-info__mail {
     font-weight: 500;
+    text-decoration: none;
+    color: rgb(27, 28, 33);
 }
 
 .contact-info__phone {
     font-size: 24px;
     font-weight: 700;
     margin: 0;
+    text-decoration: none;
+    color: rgb(27, 28, 33);
 }
 
 .lang-navigation {
