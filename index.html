@@ -2,49 +2,102 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style_index.css">
-    <meta name="keywords" content="услуги, клиентам, CPS">
-    <title>Продвинутая стилизация</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ремонт, бренды, техники">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style_new.css">
+    <title>js в браузере</title>   
 </head>
 <body>
-    <main class="container">
-       <header class="services">
-            <ul class="navigation-links">
-                <li class="navigation-links__item">
-                    <button class="navigation-links__button"><img src="img/mob/крест.png" alt="Закрыть сайд-бар"></button> </li>
-                <li class="navigation-links__item"><img src="img/mob/icon.png" alt="Лого"></li>
-                <li class="navigation-links__item">
-                    <button class="navigation-links__button"><img src="img/mob/search.png" alt="Поиск" class="navigation-links__third-link"></button></li>  
-            </ul>
-            <nav class="navigation-list">
-                <ul class="services-list">
-                    <li class="services-list__item services-list__item--active"><a class="services-list__link services-list__link--active" href="#">Ремонт техники</a></li>
-                    <li class="services-list__item"><a class="services-list__link">Услуги и сервисы</a></li>
-                    <li class="services-list__item"><a class="services-list__link">Корпоративным клиентам</a></li>
-                    <li class="services-list__item"><a class="services-list__link">Продавцам техники</a></li>
-                    <li class="services-list__item"><a class="services-list__link">Партнерам</a></li>
-                    <li class="services-list__item"><a class="services-list__link">Производителям</a></li>
-                    <li class="services-list__item"><a class="services-list__link">Наши сервисные центры</a></li>
-                    <li class="services-list__item"><a class="services-list__link">Контакты</a></li>
-                </ul>
-            </nav>
-        </header>
-        <footer class="contacts">
-            <ul class="contact-links">
-                <li class="contact-links__item"><img src="img/mid/call.png" alt="Позвонить нам"></li>
-                <li class="contact-links__item"><img src="img/mid/chat.png" alt="Написать нам"></li>
-                <li class="contact-links__item"><img src="img/mid/chel.png" alt="Профиль"></li>
-            </ul>
-            <section class="contact-info"> 
-                <p><a class="contact-info__mail" href="mailto:mail@cps.com">mail@cps.com</a></p>
-                <p><a class="contact-info__phone" href="tel:88008908900">8 800 890 8900</a></p>
+    <div class="page-container">
+        <main class="slider-container">
+            <section class="title"> 
+                <p class="title__content">
+                   ремонт техники различных брендов 
+                </p>
             </section>
-            <ul class="lang-navigation">
-                <li class="lang-navigation__lang-link lang-navigation__lang-link--active"><a>ru</a></li>
-                <li class="lang-navigation__lang-link"><a>en</a></li>
-                <li class="lang-navigation__lang-link"><a>ch</a></li>
-            </ul>
-        </footer> 
-    </main>
+            <section class="slider-list swiper">
+                <ul class="brand-list brand-list--hidden swiper-wrapper">
+                    <li class="brand-item swiper-slide">
+                        <a href="#" class="brand-item__link">
+                            <img src="/img/brends/Lenovo.png" alt="Lenovo" class="brand-item__image brand-item__brand-img">
+                            <img src="/img/brends/go.png" alt="Go link" class="brand-item__image brand-item__go-img">
+                        </a>
+                    </li>
+                    <li class="brand-item swiper-slide">
+                        <a href="#" class="brand-item__link">
+                            <img src="/img/brends/Samsung.png" alt="Samsung" class="brand-item__image brand-item__brand-img">
+                            <img src="/img/brends/go.png" alt="Go link" class="brand-item__image brand-item__go-img">
+                        </a>
+                    </li>
+                    <li class="brand-item swiper-slide">
+                        <a href="#" class="brand-item__link">
+                            <img src="/img/brends/apple.png" alt="Apple" class="brand-item__image brand-item__brand-img">
+                            <img src="/img/brends/go.png" alt="Go link" class="brand-item__image brand-item__go-img">
+                        </a>
+                    </li>
+                    <li class="brand-item swiper-slide">
+                        <a href="#" class="brand-item__link">
+                            <img src="/img/brends/ViewSonic.png" alt="ViewSonic" class="brand-item__image brand-item__brand-img">
+                            <img src="/img/brends/go.png" alt="Go link" class="brand-item__image brand-item__go-img">
+                        </a>
+                    </li>
+                    <li class="brand-item swiper-slide">
+                        <a href="#" class="brand-item__link">
+                            <img src="/img/brends/Bosch.png" alt="Bosch" class="brand-item__image brand-item__brand-img">
+                            <img src="/img/brends/go.png" alt="Go link" class="brand-item__image brand-item__go-img">
+                        </a>
+                    </li>
+                    <li class="brand-item swiper-slide">
+                        <a href="#" class="brand-item__link">
+                            <img src="/img/brends/hp.png" alt="hp" class="brand-item__image brand-item__brand-img">
+                            <img src="/img/brends/go.png" alt="Go link" class="brand-item__image brand-item__go-img">
+                        </a>
+                    </li>
+                    <li class="brand-item swiper-slide">
+                        <a href="#" class="brand-item__link">
+                            <img src="/img/brends/acer.png" alt="Acer" class="brand-item__image brand-item__brand-img">
+                            <img src="/img/brends/go.png" alt="Go link" class="brand-item__image brand-item__go-img">
+                        </a>
+                    </li>
+                    <li class="brand-item swiper-slide">
+                        <a href="#" class="brand-item__link">
+                            <img src="/img/brends/sony.png" alt="Sony" class="brand-item__image brand-item__brand-img">
+                            <img src="/img/brends/go.png" alt="Go link" class="brand-item__image brand-item__go-img">
+                        </a>
+                    </li>
+                    <li class="brand-item swiper-slide">
+                        <a href="#" class="brand-item__link">
+                            <img src="/img/brends/Lenovo.png" alt="Lenovo" class="brand-item__image brand-item__brand-img">
+                            <img src="/img/brends/go.png" alt="Go link" class="brand-item__image brand-item__go-img">
+                        </a>
+                    </li>
+                    <li class="brand-item swiper-slide">
+                        <a href="#" class="brand-item__link">
+                            <img src="/img/brends/Samsung.png" alt="Samsung" class="brand-item__image brand-item__brand-img">
+                            <img src="/img/brends/go.png" alt="Go link" class="brand-item__image brand-item__go-img">
+                        </a>
+                    </li>
+                    <li class="brand-item swiper-slide">
+                        <a href="#" class="brand-item__link">
+                            <img src="/img/brends/apple.png" alt="Apple" class="brand-item__brand-img">
+                            <img src="/img/brends/go.png" alt="Go link" class="brand-item__go-img">
+                        </a>
+                    </li>
+                </ul>
+                <div class="pagination swiper-pagination"></div>
+            </section>
+            <div class="button-container">
+               <button class="button">
+                    <img src="/img/brends/down.png" alt="Up" class="button__img">
+                    <span class="button__text">
+                        Показать все
+                    </span>
+                </button> 
+            </div> 
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/for_jsinb.js"></script>
 </body>
 </html>
